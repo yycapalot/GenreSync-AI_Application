@@ -21,7 +21,7 @@ An interactive web application built with Streamlit that integrates the Spotify 
 ```bash
 git clone [https://github.com/yycapalot/GenreSync-AI_Application.git](https://github.com/yycapalot/GenreSync-AI_Application.git)
 cd GenreSync-AI_Application
-
+```
 2. **Create a virtual environment (Recommended)**
 ```bash
 python -m venv env
@@ -29,10 +29,12 @@ python -m venv env
 source env/bin/activate  
 # On Windows:
 env\Scripts\activate
+```
 
 3. **Install dependencies**
 ```bash
 pip install -r requirements.txt
+```
 
 4. Environment Variables Configuration
 For security reasons, API keys are not included in this repository. You must create a .env file in the root directory and add your specific credentials for both Spotify and OpenAI to run the application:
@@ -44,3 +46,5 @@ SPOTIPY_REDIRECT_URI="http://localhost:8501"
 
 # OpenAI API Credentials (Get this from platform.openai.com)
 OPENAI_API_KEY="your_openai_api_key_here"
+```
+
